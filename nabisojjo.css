@@ -1,0 +1,317 @@
+body{
+	margin: 0;
+	font-family: calibri, sans-serif;
+}
+
+	/*this is the link navigation bar*/
+	.leftnav{
+		width: 20%;
+		height: 100%;
+		position: fixed;
+		overflow: auto;
+		padding: 0;
+		margin: 0;
+
+		
+		box-shadow: 1px 1px 10px black;
+		list-style-type: none;
+		background-color: #03a9f4;
+	}
+
+		/*this is the company logo in the nav bar*/
+		.logo{
+			display: block;
+			width: 100%;
+			height: 200px;
+		}
+
+		.navlist .navlink{
+			display: block;
+			padding: 10px 20px;
+
+			text-decoration: none;
+			color: white;
+			text-transform: uppercase;
+		}
+
+			.navlist .navlink:hover{
+				transition: 2s ease;
+				text-indent: 10px;
+
+				font-weight: bold;
+				color: #03a9f4;
+				background-color: black;
+
+			}
+
+				/*this is the company name*/
+				.comp{
+					margin: 0 0 0 20%;
+					padding: 10px;
+					text-align: center;
+					word-spacing: 5px;
+
+					color: #ffeb3b;
+					text-transform: uppercase;
+					background-color: #03a9f4;
+					font-size: 30px;
+					font-weight: lighter;
+					font-family: "Arial Black", sans-serif;
+					text-shadow: 2px 2px 4px #795548;
+				}
+
+			/*this is the company photo*/
+			.openshow{
+				width: 80%;
+				height: 400px;
+				margin: 0 auto;
+
+				background-color: grey;
+			}
+
+		.openpic{
+			width: 100%;
+			height: 100%;
+			border: 1px grey solid;
+		}
+
+
+	/*this is the main page flow*/
+	.conte{
+		height: auto;
+		margin-left: 20%;
+		padding: 1px 0 0 0;
+	}
+
+			
+/*this is for the heads (h3)*/
+.head{
+	margin-top: 60px;
+	text-align: center;
+
+	color: #03a9f4;
+	font-size: 23px;
+	text-transform: uppercase;
+	font-family: "Bookman Old Style", sans-serif;
+}
+
+	/*this is for the semi heads (h4)*/
+	.semi{
+		margin-top: 40px;
+		color: #ff5722;
+		font-size: 17px;
+		font-family: "Arial Narrow", sans-serif;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+		/*my last head h5*/
+		.lasthead{
+			margin-top: 40px;
+			color: yellow;
+			font-size: 17px;
+			text-transform: uppercase;
+			text-shadow: 1px 1px 2px black;
+		}
+
+
+
+			/*this is the introduction*/
+			.intro{
+				height: auto;
+				padding: 10px 30px 10px 30px;
+
+				background-color: #90a4ae;
+			}
+
+				.headintro{
+					margin-top: 60px;
+					text-align: center;
+
+					color: #9c27b0;
+					font-size: 23px;
+					text-transform: uppercase;
+					text-shadow: 1px 1px 2px black;
+					font-family: "Bookman Old Style", sans-serif;
+				}
+
+
+
+					/*this is the about*/
+					.about{
+						height: auto;
+						padding: 10px 30px 10px 30px;
+
+						background-color: #fff59d;
+					}
+
+						#aboutpics{
+							width: 45%;
+							height: 250px;
+						}
+
+							.admins{
+								width: 40%;
+								margin: 40px auto;
+							}
+
+								.adminpic{
+									width: 100%;
+									height: auto;
+									border-radius: 50%;
+									border: 1px solid gold;
+									box-shadow: 2px 2px 10px black;
+								}
+
+									.captabout{
+										color: #263238;
+										margin-top: 10px;
+										text-align: center;
+									}
+
+
+								/*this is the objectives*/
+								.object{
+									height: auto;
+									padding: 10px 30px 10px 30px;
+
+									background-color: #e0e0e0;
+
+								}
+
+							.partners{
+								list-style-type: square;
+							}
+
+						.headpartn{
+							display: inline;
+
+							color: #192d9a;
+							font-size: 16px;
+							text-transform: capitalize;
+						}
+
+					/*the project's proposed plan*/
+					.plan{
+						height: auto;
+						padding: 10px 30px 10px 30px;
+
+						background-color: none;
+					}
+
+				.planlist{
+					line-height: 38px;
+					list-style-position: inside;
+
+					font-weight: bold;
+					font-size: 18px;
+				}
+
+			/*marketing strategy*/
+			.market{
+				height: auto;
+				padding: 10px 30px 10px 30px;
+
+				background-color: #bcaaa4;
+			}
+
+		.markethead{
+			margin-top: 60px;
+			text-align: center;
+
+			color: #ffeb3b;
+			font-size: 23px;
+			text-transform: uppercase;
+			text-shadow: 1px 1px 2px black;
+			font-family: "Bookman Old Style", sans-serif;
+		}
+
+	.marketlist{
+		list-style-type: square;
+		list-style-position: inside;
+		font-size: 17px;
+	}
+
+.marklist{
+	padding: 8px;
+}
+
+
+/*project team*/
+	.img-circle{
+		width: 100%;
+		height: auto;
+	}
+
+		.staffcapt{
+			text-align: center;
+			text-transform: capitalize;
+		}
+
+			.photo{
+				width: 100%;
+
+				background-color: pink;
+				border: 1px solid #ccc;
+			}
+
+				.image{
+					width: 100%;
+					height: auto;
+				}
+
+					.capt{
+
+						padding: 8px;
+						text-align: ;
+					}
+
+
+			/*this is the contact*/
+			.contact{
+				height: auto;
+				padding: 10px 30px 10px 30px;
+
+				color: white;
+				background-color: #333;
+			}
+
+				.conthead{
+					margin-bottom: 50px;
+					color: #ffeb3b;
+					text-align: center;
+					font-size: 22px;
+					text-shadow: 1px 1px 2px black;
+					text-transform: capitalize;
+					text-decoration: underline dashed grey;
+				}
+
+					.contlist{
+						font-size: 15px;
+						padding: 5px;
+					}
+
+			.map{
+				width: 100%;
+				height: auto;
+				margin: 0;
+				border: none;
+			}		
+		.conticon{
+			font-size: 30px;
+			padding: 5px 15px 5px 15px;
+		}
+
+		.contlisticon{
+			font-size: 25px;
+			margin-right: 30px;
+			color: green;
+			font-weight: bold;
+		}
+
+	.copyright{
+		color: #2b2b2b;
+		background-color: #555;
+		text-align: center;
+		font-size: 14px;
+	}
