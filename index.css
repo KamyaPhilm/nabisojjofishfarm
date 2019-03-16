@@ -147,52 +147,25 @@ body{
 					.about{
 						height: auto;
 						padding: 10px 30px 10px 30px;
-
 						background-color: #fff59d;
-					}
-
-<<<<<<< HEAD:nabisojjo.css
+					}						
 						.aboutpics{
-=======
-						#aboutpics{
-							width: 45%;
-							height: 250px;
-						}
-							.aboutpics{
->>>>>>> 8beafae7f9c979be58a5c700bde276e63d5b11cb:index.css
 							width: 50%;
 							margin: auto;
 							margin-bottom: 20px;
+						}
+
+							#aboutimg{
+								width: 100%;
+								height: 50%;
 							}
-<<<<<<< HEAD:nabisojjo.css
-=======
 
-								#aboutimg{
-									width: 100%;
-									height: 50%;
+								.captabout{
+									margin-top: 0;
+									border-radius: 4px;
+									background-color: #80deea;
+									padding: 5px;
 								}
-
-									.captabout{
-										color: #263238;
-										margin-top: 0;
-										border-radius: 4px;
-										background-color: #80deea;
-										padding: 5px;
-									}
->>>>>>> 8beafae7f9c979be58a5c700bde276e63d5b11cb:index.css
-
-								#aboutimg{
-									width: 100%;
-									height: 50%;
-								}
-
-									.captabout{
-										color: #263238;
-										margin-top: 0;
-										border-radius: 4px;
-										background-color: #80deea;
-										padding: 5px;
-									}
 
 							/*this is the admins pictures*/
 							.admins{
