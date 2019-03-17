@@ -59,19 +59,26 @@ body{
 					text-shadow: 2px 2px 4px #795548;
 				}
 
+					.pageimg{
+						width: 40%;
+						height: auto;
+					}
+
+						#pageimg{
+							width: 100%;
+							height: 100%;
+						}
+
 			/*this is the company photo*/
 			.openshow{
-				width: 80%;
-				height: 400px;
+				width: 100%;
+				height: 500px;
 				margin: 0 auto;
-
-				background-color: grey;
 			}
 
 		.openpic{
 			width: 100%;
 			height: 100%;
-			border: 1px grey solid;
 		}
 
 
@@ -264,7 +271,8 @@ body{
 
 			.photo{
 				width: 100%;
-
+				height: auto;
+				margin-bottom: 12px;
 				background-color: pink;
 				border: 1px solid #ccc;
 			}
@@ -277,7 +285,6 @@ body{
 					.capt{
 
 						padding: 8px;
-						text-align: ;
 					}
 
 
